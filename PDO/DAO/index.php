@@ -16,9 +16,27 @@ echo json_encode($lista);*/
 echo json_encode($search);*/
 
 //Carrrega um usuário usando o login e senha
-$usuario = new Usuario();
+/*$usuario = new Usuario();
 $usuario->login("Maria", "123");
+echo $usuario;*/
 
+//Criando um novo usuário
+/*$aluno = new Usuario("aluno", "NOVO123");
+$aluno->insert();
+echo $aluno;*/
+
+//Alterar usuário
+/*$usuario = new Usuario();
+$usuario->loadById(11);
+$usuario->update("professor", "103924g");
+echo $usuario;*/
+
+
+//Deletar usuário
+$usuario = new Usuario();
+$usuario->loadById(13);
+$usuario->delete();
 echo $usuario;
+
 
 ?>
