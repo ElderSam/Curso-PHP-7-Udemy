@@ -4,7 +4,8 @@
 
 ## PDO - Banco de Dados MySQL: PDO
 
-<ol> MANIPULANDO ARQUIVOS:
+## MANIPULANDO ARQUIVOS:
+<ol> 
     <li>DIR - manipulando diretórios/pastas</li>
     <li>FOPEN - file open- criando, abrindo e escrevendo em arquivo</li>
     <li>UNLINK - excluir arquivos</li>
@@ -14,4 +15,5 @@
     <li>cURL</li>
     <li>Cookie</li>
 </ol>
+
 ## Tratando Erros com Try Catch
