@@ -1,10 +1,10 @@
 # Curso-PHP-7-Udemy
 
-## POO - Programação Orientada a Objetos
+## - POO - Programação Orientada a Objetos
 
-## PDO - Banco de Dados MySQL: PDO
+## - PDO - Banco de Dados MySQL: PDO
 
-## MANIPULANDO ARQUIVOS:
+## - MANIPULANDO ARQUIVOS:
 <ol> 
     <li>DIR - manipulando diretórios/pastas</li>
     <li>FOPEN - file open- criando, abrindo e escrevendo em arquivo</li>
@@ -16,4 +16,6 @@
     <li>Cookie</li>
 </ol>
 
-## Tratando Erros com Try Catch
+## - Tratando Erros com Try Catch
+
+## 
