@@ -1,5 +1,10 @@
 <?php
+/*  ENVIO DE EMAIL USANDO PHPMAILER (com gmail)
+    para funcionar você precisa permitir apps menos seguros na sua conta google: 
+    https://support.google.com/accounts/answer/6010255
+    vai te redirecionar para esse link -> https://myaccount.google.com/lesssecureapps, aí é só permitir. OBS: LEMBRE-SE DE DESATIVAR DEPOIS PARA NÃO TER PROBLEMAS DE SEGURANÇA COM SUA CONTA GOOGLE.
 
+*/
 require_once('vendor/autoload.php');
 
 //Create a new PHPMailer instance
