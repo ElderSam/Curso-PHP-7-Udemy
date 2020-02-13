@@ -1,0 +1,15 @@
+{
+    "name": "eldersam/composer",
+    "description": "Aula de PHP 7: Composer\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[CUsando\u001b[C\u001b[Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ElderSam",
+            "email": "eldersamuel98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"monolog/monolog":"1.0.*" 
+    }
+}
