@@ -1,0 +1,15 @@
+{
+    "name": "eldersam/email",
+    "description": "usando PHPMailer para enviar e-mails",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ElderSam",
+            "email": "eldersamuel98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "~6.1"
+    }
+}
