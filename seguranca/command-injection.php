@@ -4,11 +4,12 @@
 //Recupera via POST o que foi enviado pelo formulário
 if($_SERVER["REQUEST_METHOD"] == 'POST'){
     
-    $cmd = escapeshellcmd($_POST["cmd"]); //escapa de comandos via POST, pois transforma tudo em String
-    
+    /* para evitar Command Injection:
+    $cmd = escapeshellcmd($_POST["cmd"]); //escapa de comandos via POST, pois transforma tudo em String 
     var_dump($cmd);
+    */
     
-    //$cmd = $_POST["cmd"]; //apenas para testar os comandos
+    $cmd = $_POST["cmd"]; //apenas para testar os comandos
 
 
     echo "<pre>";
