@@ -1,5 +1,5 @@
 <?php
-/* Fazendo Download de arquivos remotos (servidor, da internet, etc...)*/7
+/* Fazendo Download de arquivos remotos (servidor, da internet, etc...)*/
 
 $link = "https://www.motortrend.com/uploads/sites/5/2018/06/2019-Ford-Mustang-Shelby-GT350-front-three-quarter-in-motion-02.jpg?fit=around%7C875:492";
 
