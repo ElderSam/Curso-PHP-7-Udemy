@@ -45,19 +45,19 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = 'eldersamuel98@gmail.com';
+$mail->Username = 'youremail@gmail.com';
 
 //Password to use for SMTP authentication
 $mail->Password = '*******';
 
 //Set who the message is to be sent from
-$mail->setFrom('eldersamuel98@gmail.com', 'PHP7TESTE');
+$mail->setFrom('youremail@gmail.com', 'My name');
 
 //Set an alternative reply-to address
-//$mail->addReplyTo('eldersamuel98@gmail.com', 'PHP7TESTE');
+//$mail->addReplyTo('youremail@gmail.com', 'PHP7TESTE');
 
 //Set who the message is to be sent to
-$mail->addAddress('eldersamuel98@gmail.com', 'Elder S.');
+$mail->addAddress('email@gmail.com', 'Name');
 
 //Set the subject line
 $mail->Subject = 'PHPMailer GMail SMTP test';
